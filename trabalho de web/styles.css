@@ -1,0 +1,84 @@
+nav ul {
+    background-color: tomato;
+    border-style: solid;
+    border-color: rgb(63, 4, 4);
+    border-width: 2px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+    nav ul li {
+        list-style-type: none;
+        display: inline;
+        margin-right: 10px;
+        margin-left: 10px;
+        color: rgb(78, 1, 1);
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: rgb(116, 3, 3);
+      padding: 70px;
+      font-size: 20px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  h1 {
+    text-align: center;
+    color: rgb(102, 6, 6);
+  }
+  h3 {
+    text-align: center;
+  }
+  .capa {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+body{
+  background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 2%, rgb(179, 174, 174) 100%);
+  }
+  table,tr,th,td{
+    border: 1px solid red;
+    text-align: center;
+
+  }
+  .tabela {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .Mariobros {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+ .Kirbyimg{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  width: 700px;
+  height: 300px;
+  overflow: hidden; 
+  transform: translate(-50%, -50%);
+ }
+ #art {
+  display: table;
+  border-spacing: 1px;
+  background-color: black;
+  border: 5px solid black;
+
+ }
+ .row {
+  display: table-row;
+ }
+ .pixel {
+  display: table-cell;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+ }
